@@ -2,6 +2,11 @@
 
 User-visible changes are recorded here. Product decisions and implementation history are available in [Development](docs/DEVELOPMENT.md) and [Iteration](docs/ITERATION.md).
 
+## Unreleased
+
+- Select source identity and titles on demand when preparing personal context, without loading every source body first.
+- Process long source text in sequential, saved parts. Resume unfinished parts after interruption, inspect progress and part summaries, and review grounded candidates before adopting them. Existing attachment and import limits remain in effect.
+
 ## 0.3.0 — 2026-11-05
 
 - Bundle pinned Codex CLI 0.165.0 with the desktop app. The execution component updates with SecondU; configure a model connection to run tasks without a separate CLI installation.
