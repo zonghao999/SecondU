@@ -4,8 +4,12 @@ User-visible changes are recorded here. Product decisions and implementation his
 
 ## Unreleased
 
+- Import multiple files or a folder as one local collection, with linked originals or saved copies, resumable indexing and configurable disk budgets.
+- Index existing source attachments in place and search bounded, versioned text with Chinese full-text search, multi-query lookup and saved-record pagination.
+- Verify copied originals before opening and preserve source evidence separately from confirmed memories.
+
 - Select source identity and titles on demand when preparing personal context, without loading every source body first.
-- Process long source text in sequential, saved parts. Resume unfinished parts after interruption, inspect progress and part summaries, and review grounded candidates before adopting them. Existing attachment and import limits remain in effect.
+- Process long source text in sequential, saved parts. Resume unfinished parts after interruption, inspect progress and part summaries, and review grounded candidates before adopting them. Model input limits remain separate from library storage limits.
 
 ## 0.3.0 — 2026-11-05
 
